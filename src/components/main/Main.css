@@ -9,7 +9,7 @@
 .swapPool {
   width: fit-content;
   padding: 15px;
-  background: var(--bg1);
+  background: var(--bg2);
   border-radius: 50px;
   display: flex;
 }
