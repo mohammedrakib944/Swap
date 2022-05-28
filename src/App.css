@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 :root {
-  --primaryColor: #fd4337;
+  --primaryColor: #d92317;
   --bg1: #0b1a38;
-  --bg2: #1c1f45;
+  --bg2: rgb(28, 31, 69);
   --bg3: #323562;
-  --borderColor: #393d6d;
-  --text1: rgb(240, 238, 238);
-  --text2: rgb(116, 116, 116);
+  --borderColor: #424572;
+  --text1: rgb(216, 213, 223);
+  --text2: rgb(123 123 143);
   --muteText: #abadc2;
 }
 
@@ -47,7 +47,7 @@ li {
   cursor: pointer;
   background: var(--bg3);
   color: var(--text1);
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.623);
+  box-shadow: 0px 3px 10px rgb(0 0 0 / 62%), -3px -1px 10px #414583;
   display: flex;
   align-items: center;
   justify-content: center;

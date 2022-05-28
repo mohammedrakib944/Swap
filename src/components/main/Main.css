@@ -1,0 +1,149 @@
+.mainWrapper {
+  width: calc(100% - 258px);
+  padding: 20px 0;
+  position: absolute;
+  right: 0;
+  margin-top: 80px;
+  padding-left: 17px;
+}
+.swapPool {
+  width: fit-content;
+  padding: 15px;
+  background: var(--bg1);
+  border-radius: 50px;
+  display: flex;
+}
+.spBTN {
+  width: 150px;
+  border: 1px solid var(--borderColor);
+  box-shadow: 0px 0px 10px #0000005e;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.swapBtn {
+  margin-right: 10px;
+  background: var(--primaryColor);
+  box-shadow: inset 0px 0pc 10px #00000091;
+  border-color: var(--bg1);
+}
+.swapBtn:hover {
+  background: #b81a0f;
+  border-color: var(--bg2);
+}
+
+.swap {
+  width: 700px;
+  background: var(--bg2);
+  margin-top: 35px;
+  border-radius: 10px;
+  padding: 20px;
+  color: var(--text1);
+}
+.swapHeader {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--bg3);
+}
+
+.swapTitles h6 {
+  font-size: 1.2rem;
+}
+.swapTitles p {
+  color: var(--text2);
+  font-size: 14px;
+}
+.swapInputs {
+  margin-top: 30px;
+}
+.swapIcons {
+  padding-top: 7px;
+}
+.swapIcons > button {
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  color: var(--text2);
+  background: var(--bg3);
+  margin-left: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  border: 1px solid;
+  padding-bottom: 4px;
+  transition: 0.3s;
+}
+.swapIcons > button:hover {
+  color: var(--primaryColor);
+}
+.swapBtnImg {
+  width: 20px;
+}
+.customInput {
+  background: var(--bg1);
+  border-radius: 8px;
+  border: 1px solid var(--borderColor);
+  position: relative;
+  padding: 2px 0;
+  display: flex;
+}
+.customInput > input {
+  width: 500px;
+  border-radius: 8px;
+  background: none;
+  border: none;
+  padding: 0 20px;
+  color: var(--text1);
+}
+.customInput > input:focus {
+  outline: none;
+}
+.customInput > label {
+  position: absolute;
+  background: var(--borderColor);
+  margin-top: -11px;
+  margin-left: 20px;
+  padding: 2px 15px 0;
+  font-size: 11px;
+  border-radius: 10px;
+}
+
+.unlockBtn {
+  font-weight: 500;
+  border: 2px solid var(--primaryColor);
+  transition: 0.3s;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+.unlockBtn:hover {
+  box-shadow: none;
+}
+.unlockBtn > span {
+  padding-top: 1px;
+}
+
+.inputSelector {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: var(--text2);
+  font-size: 14px;
+  margin-bottom: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+.inputSelector > img {
+  width: 20px;
+  margin-right: 10px;
+}
+.inputSelector > span {
+  margin-right: 12px;
+}
+.exchangeIcon {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  font-size: 26px;
+  color: var(--text2);
+}

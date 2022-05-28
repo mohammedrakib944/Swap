@@ -17,7 +17,7 @@
 }
 .lanBtn {
   color: var(--muteText);
-  border-color: var(--muteText);
+  border-color: var(--text2);
 }
 .ENicon {
   width: 20px;
@@ -50,7 +50,7 @@
   justify-content: center;
   margin-right: 10px;
   color: var(--muteText);
-  border-color: var(--muteText);
+  border-color: var(--text2);
 }
 .wbnbIcn {
   width: 17px;
