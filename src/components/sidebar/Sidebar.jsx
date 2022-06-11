@@ -4,7 +4,7 @@ import {
   HouseDoorFill,
   CurrencyExchange,
   ThreeDots,
-  CaretDown,
+  ChevronDown,
   Github,
   Twitter,
   Send,
@@ -37,13 +37,13 @@ const Sidebar = () => {
             <li>
               <a href="#">
                 <CurrencyExchange />
-                <span>Exchange</span> <CaretDown className="downArrow" />
+                <span>Exchange</span> <ChevronDown className="downArrow" />
               </a>
             </li>
             <li>
               <a href="#">
                 <ThreeDots className="moreDownArr" />
-                <span>More</span> <CaretDown className="downArrow" />
+                <span>More</span> <ChevronDown className="downArrow" />
               </a>
             </li>
           </ul>

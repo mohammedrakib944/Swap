@@ -5,7 +5,7 @@ import {
   Gear,
   ArrowCounterclockwise,
   CurrencyExchange,
-  CaretDown,
+  ChevronDown,
 } from "react-bootstrap-icons";
 
 const Main = () => {
@@ -50,7 +50,7 @@ const Main = () => {
                     <p className="inputSelector">
                       <img src={wbnb2} />
                       <span>BNB</span>
-                      <CaretDown />
+                      <ChevronDown />
                     </p>
                   </div>
                   <div className="exchangeIcon">
@@ -61,7 +61,7 @@ const Main = () => {
                     <input type="text" id="from" placeholder="0.0" />
                     <p className="inputSelector">
                       <span>Select a token</span>
-                      <CaretDown />
+                      <ChevronDown />
                     </p>
                   </div>
                 </div>

@@ -1,7 +1,7 @@
 import "./Header.css";
 import EN from "../../assets/icons/EN.png";
 import wbnb from "../../assets/icons/wbnb.png";
-import { CaretDown, PlusCircle } from "react-bootstrap-icons";
+import { ChevronDown, PlusCircle } from "react-bootstrap-icons";
 
 const Header = () => {
   return (
@@ -12,7 +12,7 @@ const Header = () => {
             <div className="headerLanguage">
               <span className="univarsalBtn lanBtn">
                 <img src={EN} className="ENicon" /> EN{" "}
-                <CaretDown className="downIcon" />
+                <ChevronDown className="downIcon" />
               </span>
             </div>
           </div>
@@ -20,7 +20,7 @@ const Header = () => {
             <div className="headerRight">
               <button className="univarsalBtn coinbtn">
                 <img src={wbnb} className="ENicon wbnbIcn" /> BSC &nbsp;
-                <CaretDown className="downIcon" />
+                <ChevronDown className="downIcon" />
               </button>
               <button className="univarsalBtn connectbtn">
                 <PlusCircle /> &nbsp;&nbsp;&nbsp; <span>Connect</span>
