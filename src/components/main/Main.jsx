@@ -16,6 +16,9 @@ const Main = () => {
           <div className="col-md-2"></div>
           <div className="col-md-6">
             <div className="main">
+              <div className="exWrapper">
+                <h2 className="exchangeTitle">Exchange</h2>
+              </div>
               <div className="swapPool">
                 <button className="univarsalBtn spBTN swapBtn">Swap</button>
                 <button className="univarsalBtn spBTN poolBtn">Pool</button>

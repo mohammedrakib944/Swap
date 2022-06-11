@@ -8,7 +8,7 @@ const Header = () => {
     <div className="Header">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-2">
+          <div className="col-md-4">
             <div className="headerLanguage">
               <span className="univarsalBtn lanBtn">
                 <img src={EN} className="ENicon" /> EN{" "}
@@ -16,12 +16,7 @@ const Header = () => {
               </span>
             </div>
           </div>
-          <div className="col-md-6">
-            <div className="exWrapper">
-              <h2 className="exchangeTitle">Exchange</h2>
-            </div>
-          </div>
-          <div className="col-md-4">
+          <div className="col-md-8">
             <div className="headerRight">
               <button className="univarsalBtn coinbtn">
                 <img src={wbnb} className="ENicon wbnbIcn" /> BSC &nbsp;
